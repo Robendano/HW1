@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form onsubmit="return validateForm()">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="button" onclick="togglePasswordVisibility()">Toggle</button><br><br>
+      
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+      
+      <input type="checkbox" id="showPassword" style="display: none;">
+      
+      <input type="submit" value="Register">
+    </form>
+  </div>
+</body>
+</html>

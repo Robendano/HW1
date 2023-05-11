@@ -1,0 +1,30 @@
+#frame {
+    position: relative;
+    width: 882px;
+    height: 691px;
+    background: url('Rift.png') no-repeat;
+    background-size: cover;
+    background-position: left top;
+  }
+  
+  #rectangle {
+    position: absolute;
+    width: 157px;
+    height: 121px;
+    left: 12px;
+    top: 12px;
+    background-image: url('yas.png');
+    background-size: cover;
+  }
+  
+  .powerspike {
+    position: absolute;
+    left: 650px;
+    top: 143px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+  }
